@@ -1,4 +1,9 @@
 
+body {
+    background: color #f3f3f3;
+    
+}
+
 
 .inline-block {
     display: inline-block;
@@ -16,18 +21,84 @@
 }
 
 .heroImg {
-    height: 600px;
-    padding: 25px;
+    height: 400px
+    
+    
 }
 
 .content {
-    width: 500px;
+    width: 250px;
     margin: 0 auto;
+    align-content: center;
+    
 }
 
 .footer {
-    background-color: #373738;
+
     padding: 15px;
     padding-left: 42%;
     
 }
+
+#mySkills {
+    background-color: #a6c1c5;
+    margin: 25px;
+    align-content: center;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 20px; 
+    margin: 25px;
+}
+
+
+#myWork-Grid {
+    display: grid;
+    Justify-items: start;
+    align-items: start;
+    
+    
+    
+
+}
+
+.project-card {
+    display:grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area: 2/1 /span 2/span 3;
+    Justify-items: start;
+    align-items: start;
+    gap: 35px 20px;
+    padding-top: 10px;
+    height: 1300px;
+    
+  
+   
+
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    Justify-items: start;
+    align-items: start;
+    padding-top: 10px;
+
+
+    
+   
+
+}
+
